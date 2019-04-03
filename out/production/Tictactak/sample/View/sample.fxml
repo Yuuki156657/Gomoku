@@ -1,0 +1,22 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<GridPane fx:controller="sample.Controller.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Button fx:id="btn0" styleClass="tic-button" text="" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#buttonClicked" />
+    <Button fx:id="btn1" styleClass="tic-button" text="" GridPane.rowIndex="0" GridPane.columnIndex="1" onAction="#buttonClicked" />
+    <Button fx:id="btn2" styleClass="tic-button" text="" GridPane.rowIndex="0" GridPane.columnIndex="2" onAction="#buttonClicked" />
+    <Button fx:id="btn3" styleClass="tic-button" text="" GridPane.rowIndex="1" GridPane.columnIndex="0" onAction="#buttonClicked" />
+    <Button fx:id="btn4" styleClass="tic-button" text="" GridPane.rowIndex="1" GridPane.columnIndex="1" onAction="#buttonClicked" />
+    <Button fx:id="btn5" styleClass="tic-button" text="" GridPane.rowIndex="1" GridPane.columnIndex="2" onAction="#buttonClicked" />
+    <Button fx:id="btn6" styleClass="tic-button" text="" GridPane.rowIndex="2" GridPane.columnIndex="0" onAction="#buttonClicked" />
+    <Button fx:id="btn7" styleClass="tic-button" text="" GridPane.rowIndex="2" GridPane.columnIndex="1" onAction="#buttonClicked" />
+    <Button fx:id="btn8" styleClass="tic-button" text="" GridPane.rowIndex="2" GridPane.columnIndex="2" onAction="#buttonClicked" />
+
+    <Label fx:id="player" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.columnIndex="1" text="" />
+
+
+
+</GridPane>

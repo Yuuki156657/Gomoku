@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane alignment="center" hgap="10" prefHeight="432.0" prefWidth="431.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Controller">
+
+    <Button fx:id="btn0" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="1" />
+    <Button fx:id="btn1" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="2" />
+    <Button fx:id="btn2" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="3" />
+    <Button fx:id="btn3" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="4" />
+    <Button fx:id="btn4" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="5" />
+    <Button fx:id="btn5" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="6" />
+    <Button fx:id="btn6" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="7" />
+    <Button fx:id="btn7" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="8" />
+    <Button fx:id="btn8" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="9" />
+    <Button fx:id="btn10" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Button fx:id="btn11" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+    <Button fx:id="btn12" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+    <Button fx:id="btn13" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+    <Button fx:id="btn14" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+    <Button fx:id="btn15" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+    <Button fx:id="btn16" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+    <Button fx:id="btn17" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+    <Button fx:id="btn18" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+    <Button fx:id="btn20" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <Button fx:id="btn21" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+    <Button fx:id="btn22" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+    <Button fx:id="btn23" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+    <Button fx:id="btn24" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+    <Button fx:id="btn25" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+    <Button fx:id="btn26" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+    <Button fx:id="btn27" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+    <Button fx:id="btn28" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+    <Button fx:id="btn30" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+    <Button fx:id="btn31" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+    <Button fx:id="btn32" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+    <Button fx:id="btn33" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+    <Button fx:id="btn34" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+    <Button fx:id="btn35" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+    <Button fx:id="btn36" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+    <Button fx:id="btn37" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+    <Button fx:id="btn38" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+    <Button fx:id="btn40" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+    <Button fx:id="btn41" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+    <Button fx:id="btn42" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+    <Button fx:id="btn43" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+    <Button fx:id="btn44" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+    <Button fx:id="btn45" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+    <Button fx:id="btn46" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+    <Button fx:id="btn47" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+    <Button fx:id="btn48" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+    <Button fx:id="btn50" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+    <Button fx:id="btn51" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+    <Button fx:id="btn52" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+    <Button fx:id="btn53" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+    <Button fx:id="btn54" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+    <Button fx:id="btn55" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+    <Button fx:id="btn56" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+    <Button fx:id="btn57" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+    <Button fx:id="btn58" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+    <Button fx:id="btn60" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+    <Button fx:id="btn61" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+    <Button fx:id="btn62" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+    <Button fx:id="btn63" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+    <Button fx:id="btn64" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+    <Button fx:id="btn65" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+    <Button fx:id="btn66" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+    <Button fx:id="btn67" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+    <Button fx:id="btn68" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+    <Button fx:id="btn70" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+    <Button fx:id="btn71" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+    <Button fx:id="btn72" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+    <Button fx:id="btn73" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+    <Button fx:id="btn74" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+    <Button fx:id="btn75" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+    <Button fx:id="btn76" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+    <Button fx:id="btn77" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+    <Button fx:id="btn78" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+    <Button fx:id="btn80" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+    <Button fx:id="btn81" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+    <Button fx:id="btn82" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+    <Button fx:id="btn83" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+    <Button fx:id="btn84" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+    <Button fx:id="btn85" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+    <Button fx:id="btn86" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+    <Button fx:id="btn87" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+    <Button fx:id="btn88" onAction="#buttonClicked" styleClass="tic-button" text="" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+
+    <Label fx:id="player" styleClass="player-ind" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+
+</GridPane>

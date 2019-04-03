@@ -1,0 +1,11 @@
+.tic-button{
+    -fx-font : 55px "Serif";
+    -fx-padding : 0.5px;
+    -fx-pref-height : 60px;
+    -fx-pref-width : 60px;
+    -fx-background-color : rgb(0, 230, 100);
+}
+
+.player-ind{
+    -fx-font : 45px "Serif"
+}
