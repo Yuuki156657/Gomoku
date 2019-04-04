@@ -10,6 +10,8 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+import java.awt.*;
+
 public class StartWindow {
 
     public static void display1(String title, String message){
@@ -24,7 +26,7 @@ public class StartWindow {
         Label messageLabel = new Label();
         messageLabel.setText("GOMOKU");
         messageLabel.setId("message");
-        messageLabel.setStyle("-fx-text-fill : green; -fx-font-size : 30; -fx-font : 80px Futura;");
+        messageLabel.setStyle("-fx-text-fill : green; -fx-font-size : 30; -fx-font : 100px Futura;");
 
         Label messageLabel1 = new Label();
         messageLabel1.setText("GAME START!!");

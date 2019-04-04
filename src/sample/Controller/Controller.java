@@ -191,8 +191,8 @@ public class Controller implements Initializable{
     public void initialize(URL location, ResourceBundle resourceBundle){
 
         isO = true;
-        player1 = new Palyer("Player 1");
-        player2 = new Palyer("Player 2");
+        player1 = new Palyer("Player 1：●");
+        player2 = new Palyer("Player 2：○");
         grid = new Button[][]{
                 {btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8},
                 {btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17, btn18},
@@ -576,9 +576,9 @@ public class Controller implements Initializable{
         if (checkDiagonals()){
             // TODO : POPUP Window! (dialog)
             if (isO){
-                Popupwindow.display("Game Over", player1.getName() + " won !");
+                Popupwindow.display("Game Over", player1.getName() + "   won !");
             }else {
-                Popupwindow.display("Game Over", player2.getName() + " won !");
+                Popupwindow.display("Game Over", player2.getName() + "   won !");
             }
             reset();
         }
