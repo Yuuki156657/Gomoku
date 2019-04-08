@@ -29,9 +29,9 @@ public class StartWindow {
         messageLabel.setStyle("-fx-text-fill : green; -fx-font-size : 30; -fx-font : 100px Futura;");
 
         Label messageLabel1 = new Label();
-        messageLabel1.setText("GAME START!!");
+        messageLabel1.setText(" ");
         messageLabel1.setId("message");
-        messageLabel1.setStyle("-fx-text-fill : red; -fx-font-size : 30;");
+        messageLabel1.setStyle("-fx-text-fill : red; -fx-font-size : 10;");
 
         Label messageLabel2 = new Label();
         messageLabel2.setText(message);
@@ -39,7 +39,8 @@ public class StartWindow {
         messageLabel2.setStyle("-fx-text-fill : black; -fx-font-size : 30;");
 
         Button okButton = new Button();
-        okButton.setText("START");
+        okButton.setText("GAME START !!");
+        okButton.setStyle("-fx-text-fill : red; -fx-font-size : 30;");
         okButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {

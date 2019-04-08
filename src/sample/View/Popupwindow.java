@@ -26,6 +26,7 @@ public class Popupwindow {
 
         Button againButton = new Button();
         againButton.setText("Again");
+        againButton.setStyle("-fx-text-fill : black; -fx-font-size : 25;");
         againButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -34,7 +35,8 @@ public class Popupwindow {
         });
 
         Button closeButton = new Button();
-        closeButton.setText("END");
+        closeButton.setText(" END ");
+        closeButton.setStyle("-fx-text-fill : black; -fx-font-size : 25;");
         closeButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -48,7 +50,7 @@ public class Popupwindow {
         layout.getChildren().add(closeButton);
         layout.setAlignment(Pos.CENTER);
 
-        Scene scene  = new Scene(layout, 400, 200);
+        Scene scene  = new Scene(layout, 400, 220);
         scene.getStylesheets().add("sample/View/Css/popup.css");
         widow.setScene(scene);
         widow.showAndWait();
