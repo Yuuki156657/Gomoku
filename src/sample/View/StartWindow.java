@@ -40,7 +40,7 @@ public class StartWindow {
 
         Button okButton = new Button();
         okButton.setText("GAME START !!");
-        okButton.setStyle("-fx-text-fill : red; -fx-font-size : 30;");
+        okButton.setStyle("-fx-text-fill : white; -fx-font-size : 40; -fx-background-color : red");
         okButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
