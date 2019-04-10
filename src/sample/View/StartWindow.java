@@ -10,8 +10,6 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-import java.awt.*;
-
 public class StartWindow {
 
     public static void display1(String title, String message){
